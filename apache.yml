@@ -6,6 +6,8 @@
       yum:
         name: "httpd"
         state: "present"
+    - name: install selinux bindings
+       yum: name=libselinux-python state=present
     - name: Start Apache server
       service:
         name: httpd
