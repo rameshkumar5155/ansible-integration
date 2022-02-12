@@ -1,5 +1,5 @@
 ---
-  - name: Playbook
+ - name: Playbook
     hosts: remoteservers
     become: yes
     become_user: root
