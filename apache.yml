@@ -1,5 +1,5 @@
 ---
-- hosts: remoteservers
+- hosts: control@172.31.32.40
   become: True
   tasks:
     - name: Install packages
